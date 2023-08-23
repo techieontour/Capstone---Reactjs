@@ -8,6 +8,7 @@ const Shop = () => {
 
 const App: FC = (): ReactElement => {
   return (
+    // Routes
     <Routes>
       <Route path="/home" element={<Home />}>
         <Route path="shop" element={<Shop />} />
